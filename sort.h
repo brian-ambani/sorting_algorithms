@@ -23,6 +23,7 @@ void print_list(const listint_t *list);
 void bubble_sort(int *array, size_t size); 
 void insertion_sort_list(listint_t **list);
 void selection_sort(int *array, size_t size);
+<<<<<<< HEAD
 void shell_sort(int *array, size_t size);
 void cocktail_sort_list(listint_t **list);
 void counting_sort(int *array, size_t size);
@@ -32,4 +33,8 @@ void radix_sort(int *array, size_t size);
 void bitonic_sort(int *array, size_t size);
 void quick_sort_hoare(int *array, size_t size);
 void sort_deck(deck_node_t **deck);
+=======
+void quick_sort(int *array, size_t size); 
+
+>>>>>>> 78a673261346e4af236ac192a09f9a0a6b8a8338
 #endif
